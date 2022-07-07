@@ -1,0 +1,36 @@
+#imgCat {
+    background-color: #fafafa;
+    max-height: 500px;
+    min-width: 500px;
+    border-radius: 20px;
+    border: 10px groove darkmagenta ;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+#btnCat {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    border: 0px solid transparent;
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    background-color: palevioletred;
+    border-radius: 10px;
+}
+
+html {
+    display: flex;
+    background-color: lightpink;
+    background-image: radial-gradient(#fafafa 20%, transparent 20%),
+      radial-gradient(#fafafa 20%, transparent 20%);
+    background-position: 0 0, 50px 50px;
+    background-size: 100px 100px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
